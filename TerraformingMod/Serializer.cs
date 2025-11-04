@@ -1,5 +1,5 @@
 ﻿using System.Xml.Serialization;
-using Assets.Scripts.Atmospherics;
+using Assets.Scripts;
 using Assets.Scripts.Objects;
 
 namespace TerraformingMod
@@ -9,6 +9,6 @@ namespace TerraformingMod
     public class TerraformingAtmosphere
     {
         [XmlElement]
-        public GasMixSaveData GasMix = null;
+        public GlobalGasMixSaveData GasMix = null;
     }
 }

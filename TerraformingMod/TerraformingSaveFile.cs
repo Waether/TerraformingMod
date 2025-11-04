@@ -1,15 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-using Assets.Scripts.Atmospherics;
 using Assets.Scripts;
 using Assets.Scripts.Serialization;
 using HarmonyLib;
-using System.Diagnostics;
 
 namespace TerraformingMod
 {
